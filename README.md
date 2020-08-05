@@ -10,8 +10,11 @@
 - Homebrew apps
 
 ## Notes
-### Install Homebrew
+These are notes for me while I create these scripts.
+Installing homebrew installs Xcode commandline tools.
+
+#### Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-### Uninstall Homebrew
+#### Uninstall Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"
