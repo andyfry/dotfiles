@@ -39,3 +39,11 @@ else
   success "Homebrew already installed."
 fi
 
+info "Cloning dotfile Repository"
+if [ -d ".dotfiles" ]; then
+  info "Archiving old .dotfiles..."
+  mv .dotfile dotfiles.old
+fi
+git clone https://github.com/andyfry/dotfiles.git .dotfiles
+
+./dotfiles/bootstrap.sh

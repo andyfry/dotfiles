@@ -18,3 +18,7 @@ Installing homebrew installs Xcode commandline tools.
 
 #### Uninstall Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"
+
+### Git Repo
+https://github.com/andyfry/dotfiles.git
+
