@@ -42,7 +42,7 @@ fi
 info "Cloning dotfile Repository"
 if [ -d ".dotfiles" ]; then
   info "Archiving old .dotfiles..."
-  mv .dotfile dotfiles.old
+  mv .dotfiles dotfiles.old
 fi
 git clone https://github.com/andyfry/dotfiles.git .dotfiles
 
