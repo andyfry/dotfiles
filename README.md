@@ -9,6 +9,7 @@
 - Brewfile - oconfiguration for the installation of applications.
 - config - A Directory that holds all the configuration files.
 - scripts - A Directory that holds helper functions for installation.
+- macos.sh - Configures macOS via the commandline.
 
 ### newmac.sh
 - Can be downloaded from my website and executed.
@@ -27,6 +28,12 @@
 - Commandline applications are added via brew.
 - Desktop applications are added via cask.
 - App Store applications are added via mas.
+
+### macos.sh
+- Configures macOS via the commandline
+- Originally copied from Mathias Bynens
+- Original File: https://github.com/mathiasbynens/dotfiles/blob/main/.macos
+- I stripped out unneeded settings and changed defaults to meet my needs
 
 ## TODO
 - symlink files

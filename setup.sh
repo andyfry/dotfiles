@@ -7,4 +7,11 @@ cd "$DIR"
 
 info "Running Bootstrap"
 info "Symlink config"
+ln -s config ~/.config
+
 info "Brew"
+brew update
+brew upgrade
+brew bundle
+
+./macos.sh
