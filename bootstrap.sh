@@ -5,5 +5,6 @@ DIR=$(dirname "$0")
 cd "$DIR"
 . scripts/functions.sh
 
-echo "running Bootstrap"
 info "Running Bootstrap"
+info "Symlink config"
+info "Brew"
