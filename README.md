@@ -3,11 +3,38 @@
 - /bin/bash -c "$(curl https://www.andrewdalefry.com/files/newmac.sh)"
 
 
+## Files
+- newmac.sh - Initialize a brand Mac so that setup.sh can be run.
+- setup.sh - Performs the actual update of the system.
+- Brewfile - oconfiguration for the installation of applications.
+- config - A Directory that holds all the configuration files.
+- scripts - A Directory that holds helper functions for installation.
+
+### newmac.sh
+- Can be downloaded from my website and executed.
+- Installs Homebrew and Commandline tools needed to setup a new system.
+- Clones my dotfiles repository that has all the configuration and scripts to setup a new system.
+- Runs the setup.sh in the dotfiles directory.
+
+### setup.sh
+- Symlink the ~/.config directory to the config directory.
+- Install software via brew bundle.
+- Setup macOS settings by running .macos
+
+### Brewfile
+- Configuration for the Homebrew bundle command.
+- Homebrew Repositories are added via tap.
+- Commandline applications are added via brew.
+- Desktop applications are added via cask.
+- App Store applications are added via mas.
+
 ## TODO
-- have newmac pull repo
 - symlink files
 - MacOS Settings
 - Homebrew apps
+- Should the repo be called dotfiles? Is MacSetup better?
+- Should I use a tool to install dotfiles e.g. stow?
+- Should I use a bare git repository for dotfiles?
 
 ## Notes
 These are notes for me while I create these scripts.
