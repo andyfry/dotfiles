@@ -36,12 +36,15 @@
 - I stripped out unneeded settings and changed defaults to meet my needs
 
 ## TODO
-- symlink files
-- MacOS Settings
+- symlink files error handling
+- continue editing MacOS Settings
+- update macos.sh feedback
 - Homebrew apps
 - Should the repo be called dotfiles? Is MacSetup better?
 - Should I use a tool to install dotfiles e.g. stow?
 - Should I use a bare git repository for dotfiles?
+- Look into Hammerspoon
+- Look into Alfred
 
 ## Notes
 These are notes for me while I create these scripts.

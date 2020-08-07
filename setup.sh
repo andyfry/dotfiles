@@ -3,15 +3,16 @@
 # Make sure we are running in the directory this file is in
 DIR=$(dirname "$0")
 cd "$DIR"
-. scripts/functions.sh
+./scripts/functions.sh
 
 info "Running Bootstrap"
-info "Symlink config"
-ln -s config ~/.config
+info "Symlinking the config directory..."
+ln -s ~/.dotfiles/config ~/.config
 
-info "Brew"
+info "Installing Software from Homebrew"
 brew update
 brew upgrade
 brew bundle
 
+info "Editing macOS settings..."
 ./macos.sh
