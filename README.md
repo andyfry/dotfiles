@@ -45,6 +45,7 @@
 - Should I use a bare git repository for dotfiles?
 - Look into Hammerspoon
 - Look into Alfred
+- Dockutil for removing and adding dock items
 
 ## Notes
 These are notes for me while I create these scripts.
