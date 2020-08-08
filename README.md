@@ -36,16 +36,22 @@
 - I stripped out unneeded settings and changed defaults to meet my needs
 
 ## TODO
-- symlink files error handling
-- continue editing MacOS Settings
-- update macos.sh feedback
-- Homebrew apps
+- Look into Alfred
+- Look into Hammerspoon
+- vscode settings
+- repos
 - Should the repo be called dotfiles? Is MacSetup better?
 - Should I use a tool to install dotfiles e.g. stow?
 - Should I use a bare git repository for dotfiles?
-- Look into Hammerspoon
-- Look into Alfred
+
+### setup.sh
+- symlink files error handling
+
+### macos.sh
+- fix macos des(ktop files
 - Dockutil for removing and adding dock items
+- continue editing MacOS Settings
+- update macos.sh feedback
 
 ## Notes
 These are notes for me while I create these scripts.
