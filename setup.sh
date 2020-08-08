@@ -14,5 +14,8 @@ brew update
 brew upgrade
 brew bundle
 
+info "Setup Fish Shell..."
+./fish.sh
+
 info "Editing macOS settings..."
 ./macos.sh
