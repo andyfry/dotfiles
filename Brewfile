@@ -39,6 +39,10 @@ cask "qmk-toolbox"
 cask "spotify"
 cask "the-unarchiver"
 cask "visual-studio-code"
+cask "kindle"
+cask "obsidion"
+cask "notion"
+
 
 cask "font-menlo-for-powerline"
 
