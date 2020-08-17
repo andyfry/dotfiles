@@ -1,4 +1,4 @@
 function todo
 	clear
-        mdv todo.md	
+	mdv ~/Projects/ideas/lists/todo.md	
 end
