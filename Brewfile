@@ -9,7 +9,6 @@ tap "qmk/qmk"
 
 brew "git"
 brew "neovim"
-brew "tmux"
 brew "mas"
 brew "deno"
 brew "python@3.8"
