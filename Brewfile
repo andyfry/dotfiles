@@ -41,7 +41,8 @@ cask "visual-studio-code"
 cask "kindle"
 cask "obsidion"
 cask "notion"
-
+cask "twitch"
+cask "steam"
 
 cask "font-menlo-for-powerline"
 
