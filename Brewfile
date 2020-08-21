@@ -25,6 +25,8 @@ brew "mdv"
 brew "ranger"
 brew "tty-clock"
 brew "pidof"
+brew "node"
+brew "eleventy"
 
 cask "amethyst"
 cask "kitty"
