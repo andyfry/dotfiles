@@ -46,6 +46,8 @@ These scripts are intended for macOS. Many of the config files will probably wor
 - Homebrew installation of qmk on Big Sur beta.
 
 ## TODO
+- Set Background and run pywal
+- Have a fix if the Dock breaks
 - vscode settings
 - clone repos
 - Should the repo be called dotfiles? Is MacSetup better?
