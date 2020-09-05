@@ -1,4 +1,3 @@
 function todo
-	clear
-	mdv ~/Projects/ideas/lists/todo.md	
+	goals watch
 end
